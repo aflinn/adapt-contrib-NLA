@@ -7,7 +7,7 @@
   "displayName": "NLA",
   "theme": "nla",
   "description": "A core bundled theme-edited",
-  "main": "js/NLA.js",
+  "main": "js/vanilla.js",
   "keywords": [
     "adapt-plugin",
     "adapt-theme"
