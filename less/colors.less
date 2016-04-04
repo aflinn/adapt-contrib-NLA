@@ -3,20 +3,19 @@
 
 @white: #ffffff;
 @black: #4b4e4f;
-@blue: #078292;
-@light-grey: #78909c;
-@mid-grey: #546e7a;
-@dark-grey: #37474f;
-@red: #f26c4f;
-@green: #82ca9c;
+@dark-indigo: #312f40;
+@slate-blue: #38434f
+@light-grey: #e0e0e0;
+@teal: #42a49a;
+@light-yellow: #eeecc5;
 
 
 // Main Colors
 // ===========
 
 // Components
-@primary-color: @blue;
-@primary-color-inverted: @white;
+@primary-color: @dark-indigo;
+@primary-color-inverted: @teal;
 // Buttons
 @secondary-color: @black;
 @secondary-color-inverted: @white;
@@ -24,16 +23,16 @@
 @tertiary-color: @white;
 @tertiary-color-inverted: @black;
 // Drawer
-@quaternary-color: @dark-grey;
+@quaternary-color: @slate-blue;
 @quaternary-color-inverted: @white;
 // Body
 @foreground-color: @black;
 @background-color: @white;
 @foreground-color-inverted: @white;
-@background-color-inverted: @mid-grey;
+@background-color-inverted: @light-grey;
 // Validation States
-@validation-error: @red;
-@validation-success: @green;
+@validation-error: @light-yellow;
+@validation-success: @teal;
 // Disabled States
 @disabled-color: #727272;
 @disabled-color-inverted: #ccc;
@@ -100,7 +99,7 @@
 @drawer-progress-border-color: darken(@drawer-item-color, 20%);
 
 // Components
-@component-background-color: darken(@background-color, 10%);
+@component-background-color: lighten(@background-color, 10%);
 
 @item-color: @primary-color;
 @item-color-hover: darken(@item-color, 20%);
